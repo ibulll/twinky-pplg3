@@ -1,0 +1,27 @@
+.centered-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .left-text,
+  .right-text {
+    flex-basis: 20%;
+  }
+  
+  .center-image {
+    flex-basis: 40%;
+  }
+  
+  .center-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bottom-text {
+    width: 100%;
+    text-align: center;
+  }
